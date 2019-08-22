@@ -31,7 +31,7 @@ const App = () => {
     <Fragment>
       <View style={styles.container}>
         <WebView
-          source={{uri: 'http://localhost:3000'}}
+          source={{uri: 'http://192.168.1.104:3000'}}
           useWebKit={true}
           scrollEnabled
         />
