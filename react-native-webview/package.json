@@ -1,0 +1,73 @@
+{
+  "_args": [
+    [
+      "github:koenlav/react-native-webview#master",
+      "/Users/pk/Documents/dev/meteor-study/bridged-webview"
+    ]
+  ],
+  "_from": "github:koenlav/react-native-webview#master",
+  "_id": "react-native-webview@github:koenlav/react-native-webview#8df67e7effe06032c21b0e2aa04e4859268370a7",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/react-native-webview",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "github:koenlav/react-native-webview#master",
+    "rawSpec": "github:koenlav/react-native-webview#master",
+    "saveSpec": "github:koenlav/react-native-webview#master",
+    "fetchSpec": null,
+    "gitCommittish": "master"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "github:koenlav/react-native-webview#8df67e7effe06032c21b0e2aa04e4859268370a7",
+  "_spec": "github:koenlav/react-native-webview#master",
+  "_where": "/Users/pk/Documents/dev/meteor-study/bridged-webview",
+  "author": {
+    "name": "Jamon Holmgren",
+    "email": "jamon@infinite.red"
+  },
+  "bugs": {
+    "url": "https://github.com/react-native-community/react-native-webview/issues"
+  },
+  "contributors": [
+    {
+      "name": "Thibault Malbranche",
+      "email": "malbranche.thibault@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "escape-string-regexp": "^1.0.5",
+    "fbjs": "^0.8.17"
+  },
+  "description": "React Native WebView component for iOS, Android, and Windows 10 (coming soon)",
+  "devDependencies": {
+    "@semantic-release/git": "7.0.5",
+    "flow-bin": "^0.80.0",
+    "react-native": "^0.57",
+    "semantic-release": "15.10.3"
+  },
+  "homepage": "https://github.com/react-native-community/react-native-webview#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "name": "react-native-webview",
+  "peerDependencies": {
+    "react": "^16.0",
+    "react-native": "^0.57"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/react-native-community/react-native-webview.git"
+  },
+  "scripts": {
+    "ci:publish": "yarn semantic-release",
+    "ci:test": "yarn ci:test:flow",
+    "ci:test:flow": "yarn test:ios:flow && yarn test:android:flow",
+    "semantic-release": "semantic-release",
+    "test:android:flow": "flow check --flowconfig-name .flowconfig.android",
+    "test:ios:flow": "flow check"
+  },
+  "version": "2.4.3"
+}

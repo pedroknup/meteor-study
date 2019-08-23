@@ -5,20 +5,21 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* duodekaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* duodekaTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		14C24C981905FF0B59852EC9 /* libPods-duodeka-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C29ED0B3D862E13CC6157B3B /* libPods-duodeka-tvOS.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* duodekaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* duodekaTests.m */; };
-		42FFF6D7E5ACF51BA59EE41F /* libPods-duodeka.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A0913B0962A5CC35107DF878 /* libPods-duodeka.a */; };
-		A00303B960C1D0C0E010CF68 /* libPods-duodeka-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B32CFF51805593340BABB43 /* libPods-duodeka-tvOSTests.a */; };
-		B4E9ED4441D22BEF5131F9FB /* libPods-duodekaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D89385CAE0DF6FE02CE2AD27 /* libPods-duodekaTests.a */; };
+		35BE0D7E2CD57624A57E981F /* libPods-duodeka.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 64B2D9BB419DA3DFC86CD698 /* libPods-duodeka.a */; };
+		9161D33931F4D2948DD35104 /* libPods-duodeka-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 112D9DDE6AC600E601FCD0BF /* libPods-duodeka-tvOS.a */; };
+		C47A91A45E185E7DD297188E /* libPods-duodeka-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7210D4132A1E333A57D50F69 /* libPods-duodeka-tvOSTests.a */; };
+		F0E334DC1E8DBCEA31ACB54D /* libPods-duodekaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1354DDB2E404285A7CEE91BF /* libPods-duodekaTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,125 @@
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
 			remoteInfo = "duodeka-tvOS";
 		};
+		4E8FCB43230F5941000B0C10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E8FCB30230F5941000B0C10 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 83CBBA2E1A601D0E00E9B192;
+			remoteInfo = React;
+		};
+		4E8FCB45230F5941000B0C10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E8FCB30230F5941000B0C10 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2D2A28131D9B038B00D4039D;
+			remoteInfo = "React-tvOS";
+		};
+		4E8FCB47230F5941000B0C10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E8FCB30230F5941000B0C10 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3C059A1DE3340900C268FA;
+			remoteInfo = yoga;
+		};
+		4E8FCB49230F5941000B0C10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E8FCB30230F5941000B0C10 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3C06751DE3340C00C268FA;
+			remoteInfo = "yoga-tvOS";
+		};
+		4E8FCB4B230F5941000B0C10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E8FCB30230F5941000B0C10 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3CD9251DE5FBEC00167DC4;
+			remoteInfo = cxxreact;
+		};
+		4E8FCB4D230F5941000B0C10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E8FCB30230F5941000B0C10 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3CD9321DE5FBEE00167DC4;
+			remoteInfo = "cxxreact-tvOS";
+		};
+		4E8FCB4F230F5941000B0C10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E8FCB30230F5941000B0C10 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EBF21BDC1FC498900052F4D5;
+			remoteInfo = jsinspector;
+		};
+		4E8FCB51230F5941000B0C10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E8FCB30230F5941000B0C10 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EBF21BFA1FC4989A0052F4D5;
+			remoteInfo = "jsinspector-tvOS";
+		};
+		4E8FCB53230F5941000B0C10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E8FCB30230F5941000B0C10 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 139D7ECE1E25DB7D00323FB7;
+			remoteInfo = "third-party";
+		};
+		4E8FCB55230F5941000B0C10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E8FCB30230F5941000B0C10 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D383D3C1EBD27B6005632C8;
+			remoteInfo = "third-party-tvOS";
+		};
+		4E8FCB57230F5941000B0C10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E8FCB30230F5941000B0C10 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 139D7E881E25C6D100323FB7;
+			remoteInfo = "double-conversion";
+		};
+		4E8FCB59230F5941000B0C10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E8FCB30230F5941000B0C10 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D383D621EBD27B9005632C8;
+			remoteInfo = "double-conversion-tvOS";
+		};
+		4E8FCB5B230F5941000B0C10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E8FCB30230F5941000B0C10 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EDEBC6D6214B3E7000DD5AC8;
+			remoteInfo = jsi;
+		};
+		4E8FCB5D230F5941000B0C10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E8FCB30230F5941000B0C10 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EDEBC73B214B45A300DD5AC8;
+			remoteInfo = jsiexecutor;
+		};
+		4E8FCB5F230F5941000B0C10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E8FCB30230F5941000B0C10 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ED296FB6214C9A0900B7C4FE;
+			remoteInfo = "jsi-tvOS";
+		};
+		4E8FCB61230F5941000B0C10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E8FCB30230F5941000B0C10 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ED296FEE214C9CF800B7C4FE;
+			remoteInfo = "jsiexecutor-tvOS";
+		};
+		4E8FCB87230F60F2000B0C10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E8FCB73230F60F2000B0C10 /* RNCWebView.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RNCWebView;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -43,7 +163,8 @@
 		00E356EE1AD99517003FC87E /* duodekaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = duodekaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* duodekaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = duodekaTests.m; sourceTree = "<group>"; };
-		04F74482DF0B5EECA85A5AD6 /* Pods-duodekaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-duodekaTests.release.xcconfig"; path = "Target Support Files/Pods-duodekaTests/Pods-duodekaTests.release.xcconfig"; sourceTree = "<group>"; };
+		112D9DDE6AC600E601FCD0BF /* libPods-duodeka-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-duodeka-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1354DDB2E404285A7CEE91BF /* libPods-duodekaTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-duodekaTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* duodeka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = duodeka.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = duodeka/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = duodeka/AppDelegate.m; sourceTree = "<group>"; };
@@ -53,17 +174,18 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = duodeka/main.m; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* duodeka-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "duodeka-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* duodeka-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "duodeka-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		31EF3D3633A6BE44B1497341 /* Pods-duodeka-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-duodeka-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-duodeka-tvOSTests/Pods-duodeka-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		3603F563CBFEDF74CF1136FB /* Pods-duodeka.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-duodeka.debug.xcconfig"; path = "Target Support Files/Pods-duodeka/Pods-duodeka.debug.xcconfig"; sourceTree = "<group>"; };
-		5C3B96FC33C84D5C8F08E0D8 /* Pods-duodeka-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-duodeka-tvOS.release.xcconfig"; path = "Target Support Files/Pods-duodeka-tvOS/Pods-duodeka-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		643EAB86DD84F993490F3DE9 /* Pods-duodeka-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-duodeka-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-duodeka-tvOS/Pods-duodeka-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		7B32CFF51805593340BABB43 /* libPods-duodeka-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-duodeka-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A0913B0962A5CC35107DF878 /* libPods-duodeka.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-duodeka.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C29ED0B3D862E13CC6157B3B /* libPods-duodeka-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-duodeka-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D014937D80567D3722AC7F84 /* Pods-duodeka-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-duodeka-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-duodeka-tvOSTests/Pods-duodeka-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		D35520EAEDA78FD32ABD4CE3 /* Pods-duodekaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-duodekaTests.debug.xcconfig"; path = "Target Support Files/Pods-duodekaTests/Pods-duodekaTests.debug.xcconfig"; sourceTree = "<group>"; };
-		D89385CAE0DF6FE02CE2AD27 /* libPods-duodekaTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-duodekaTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D8DCF091E0A146AE82FBA153 /* Pods-duodeka.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-duodeka.release.xcconfig"; path = "Target Support Files/Pods-duodeka/Pods-duodeka.release.xcconfig"; sourceTree = "<group>"; };
+		4E8FCB30230F5941000B0C10 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
+		4E8FCB73230F60F2000B0C10 /* RNCWebView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNCWebView.xcodeproj; path = "../node_modules/react-native-webview/ios/RNCWebView.xcodeproj"; sourceTree = "<group>"; };
+		5CA1426FC4F4FB099DC3A21E /* Pods-duodeka.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-duodeka.debug.xcconfig"; path = "Target Support Files/Pods-duodeka/Pods-duodeka.debug.xcconfig"; sourceTree = "<group>"; };
+		6226216405E23CC8F63B0CD4 /* Pods-duodeka-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-duodeka-tvOS.release.xcconfig"; path = "Target Support Files/Pods-duodeka-tvOS/Pods-duodeka-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		64B2D9BB419DA3DFC86CD698 /* libPods-duodeka.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-duodeka.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7210D4132A1E333A57D50F69 /* libPods-duodeka-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-duodeka-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8FE7EE3732EB65569E9B498 /* Pods-duodekaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-duodekaTests.debug.xcconfig"; path = "Target Support Files/Pods-duodekaTests/Pods-duodekaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AC630670D039670C10E096BA /* Pods-duodeka-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-duodeka-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-duodeka-tvOS/Pods-duodeka-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		BA46CD921110194369F40A01 /* Pods-duodeka-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-duodeka-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-duodeka-tvOSTests/Pods-duodeka-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		CA1D26B20E47FEF4359F45D9 /* Pods-duodeka-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-duodeka-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-duodeka-tvOSTests/Pods-duodeka-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CD1844F37E2D7DF1C6244320 /* Pods-duodeka.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-duodeka.release.xcconfig"; path = "Target Support Files/Pods-duodeka/Pods-duodeka.release.xcconfig"; sourceTree = "<group>"; };
+		D0E91FD4D3645645422E655C /* Pods-duodekaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-duodekaTests.release.xcconfig"; path = "Target Support Files/Pods-duodekaTests/Pods-duodekaTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -73,7 +195,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4E9ED4441D22BEF5131F9FB /* libPods-duodekaTests.a in Frameworks */,
+				F0E334DC1E8DBCEA31ACB54D /* libPods-duodekaTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,7 +203,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42FFF6D7E5ACF51BA59EE41F /* libPods-duodeka.a in Frameworks */,
+				35BE0D7E2CD57624A57E981F /* libPods-duodeka.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,7 +211,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14C24C981905FF0B59852EC9 /* libPods-duodeka-tvOS.a in Frameworks */,
+				9161D33931F4D2948DD35104 /* libPods-duodeka-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,7 +219,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A00303B960C1D0C0E010CF68 /* libPods-duodeka-tvOSTests.a in Frameworks */,
+				C47A91A45E185E7DD297188E /* libPods-duodeka-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,17 +262,50 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				A0913B0962A5CC35107DF878 /* libPods-duodeka.a */,
-				C29ED0B3D862E13CC6157B3B /* libPods-duodeka-tvOS.a */,
-				7B32CFF51805593340BABB43 /* libPods-duodeka-tvOSTests.a */,
-				D89385CAE0DF6FE02CE2AD27 /* libPods-duodekaTests.a */,
+				64B2D9BB419DA3DFC86CD698 /* libPods-duodeka.a */,
+				112D9DDE6AC600E601FCD0BF /* libPods-duodeka-tvOS.a */,
+				7210D4132A1E333A57D50F69 /* libPods-duodeka-tvOSTests.a */,
+				1354DDB2E404285A7CEE91BF /* libPods-duodekaTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E8FCB31230F5941000B0C10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E8FCB44230F5941000B0C10 /* libReact.a */,
+				4E8FCB46230F5941000B0C10 /* libReact.a */,
+				4E8FCB48230F5941000B0C10 /* libyoga.a */,
+				4E8FCB4A230F5941000B0C10 /* libyoga.a */,
+				4E8FCB4C230F5941000B0C10 /* libcxxreact.a */,
+				4E8FCB4E230F5941000B0C10 /* libcxxreact.a */,
+				4E8FCB50230F5941000B0C10 /* libjsinspector.a */,
+				4E8FCB52230F5941000B0C10 /* libjsinspector-tvOS.a */,
+				4E8FCB54230F5941000B0C10 /* libthird-party.a */,
+				4E8FCB56230F5941000B0C10 /* libthird-party.a */,
+				4E8FCB58230F5941000B0C10 /* libdouble-conversion.a */,
+				4E8FCB5A230F5941000B0C10 /* libdouble-conversion.a */,
+				4E8FCB5C230F5941000B0C10 /* libjsi.a */,
+				4E8FCB5E230F5941000B0C10 /* libjsiexecutor.a */,
+				4E8FCB60230F5941000B0C10 /* libjsi-tvOS.a */,
+				4E8FCB62230F5941000B0C10 /* libjsiexecutor-tvOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E8FCB74230F60F2000B0C10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E8FCB88230F60F2000B0C10 /* libRNCWebView.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				4E8FCB73230F60F2000B0C10 /* RNCWebView.xcodeproj */,
+				4E8FCB30230F5941000B0C10 /* React.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -184,14 +339,14 @@
 		DF6E53A4EB68600FE26946EB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3603F563CBFEDF74CF1136FB /* Pods-duodeka.debug.xcconfig */,
-				D8DCF091E0A146AE82FBA153 /* Pods-duodeka.release.xcconfig */,
-				643EAB86DD84F993490F3DE9 /* Pods-duodeka-tvOS.debug.xcconfig */,
-				5C3B96FC33C84D5C8F08E0D8 /* Pods-duodeka-tvOS.release.xcconfig */,
-				D014937D80567D3722AC7F84 /* Pods-duodeka-tvOSTests.debug.xcconfig */,
-				31EF3D3633A6BE44B1497341 /* Pods-duodeka-tvOSTests.release.xcconfig */,
-				D35520EAEDA78FD32ABD4CE3 /* Pods-duodekaTests.debug.xcconfig */,
-				04F74482DF0B5EECA85A5AD6 /* Pods-duodekaTests.release.xcconfig */,
+				5CA1426FC4F4FB099DC3A21E /* Pods-duodeka.debug.xcconfig */,
+				CD1844F37E2D7DF1C6244320 /* Pods-duodeka.release.xcconfig */,
+				AC630670D039670C10E096BA /* Pods-duodeka-tvOS.debug.xcconfig */,
+				6226216405E23CC8F63B0CD4 /* Pods-duodeka-tvOS.release.xcconfig */,
+				CA1D26B20E47FEF4359F45D9 /* Pods-duodeka-tvOSTests.debug.xcconfig */,
+				BA46CD921110194369F40A01 /* Pods-duodeka-tvOSTests.release.xcconfig */,
+				A8FE7EE3732EB65569E9B498 /* Pods-duodekaTests.debug.xcconfig */,
+				D0E91FD4D3645645422E655C /* Pods-duodekaTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -317,6 +472,14 @@
 			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
 			projectDirPath = "";
 			projectReferences = (
+				{
+					ProductGroup = 4E8FCB31230F5941000B0C10 /* Products */;
+					ProjectRef = 4E8FCB30230F5941000B0C10 /* React.xcodeproj */;
+				},
+				{
+					ProductGroup = 4E8FCB74230F60F2000B0C10 /* Products */;
+					ProjectRef = 4E8FCB73230F60F2000B0C10 /* RNCWebView.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -329,6 +492,125 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		4E8FCB44230F5941000B0C10 /* libReact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libReact.a;
+			remoteRef = 4E8FCB43230F5941000B0C10 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4E8FCB46230F5941000B0C10 /* libReact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libReact.a;
+			remoteRef = 4E8FCB45230F5941000B0C10 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4E8FCB48230F5941000B0C10 /* libyoga.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libyoga.a;
+			remoteRef = 4E8FCB47230F5941000B0C10 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4E8FCB4A230F5941000B0C10 /* libyoga.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libyoga.a;
+			remoteRef = 4E8FCB49230F5941000B0C10 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4E8FCB4C230F5941000B0C10 /* libcxxreact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcxxreact.a;
+			remoteRef = 4E8FCB4B230F5941000B0C10 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4E8FCB4E230F5941000B0C10 /* libcxxreact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcxxreact.a;
+			remoteRef = 4E8FCB4D230F5941000B0C10 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4E8FCB50230F5941000B0C10 /* libjsinspector.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libjsinspector.a;
+			remoteRef = 4E8FCB4F230F5941000B0C10 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4E8FCB52230F5941000B0C10 /* libjsinspector-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libjsinspector-tvOS.a";
+			remoteRef = 4E8FCB51230F5941000B0C10 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4E8FCB54230F5941000B0C10 /* libthird-party.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libthird-party.a";
+			remoteRef = 4E8FCB53230F5941000B0C10 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4E8FCB56230F5941000B0C10 /* libthird-party.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libthird-party.a";
+			remoteRef = 4E8FCB55230F5941000B0C10 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4E8FCB58230F5941000B0C10 /* libdouble-conversion.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libdouble-conversion.a";
+			remoteRef = 4E8FCB57230F5941000B0C10 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4E8FCB5A230F5941000B0C10 /* libdouble-conversion.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libdouble-conversion.a";
+			remoteRef = 4E8FCB59230F5941000B0C10 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4E8FCB5C230F5941000B0C10 /* libjsi.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libjsi.a;
+			remoteRef = 4E8FCB5B230F5941000B0C10 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4E8FCB5E230F5941000B0C10 /* libjsiexecutor.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libjsiexecutor.a;
+			remoteRef = 4E8FCB5D230F5941000B0C10 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4E8FCB60230F5941000B0C10 /* libjsi-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libjsi-tvOS.a";
+			remoteRef = 4E8FCB5F230F5941000B0C10 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4E8FCB62230F5941000B0C10 /* libjsiexecutor-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libjsiexecutor-tvOS.a";
+			remoteRef = 4E8FCB61230F5941000B0C10 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4E8FCB88230F60F2000B0C10 /* libRNCWebView.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNCWebView.a;
+			remoteRef = 4E8FCB87230F60F2000B0C10 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -587,13 +869,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D35520EAEDA78FD32ABD4CE3 /* Pods-duodekaTests.debug.xcconfig */;
+			baseConfigurationReference = A8FE7EE3732EB65569E9B498 /* Pods-duodekaTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = duodekaTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -605,18 +888,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/duodeka.app/duodeka";
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-				);
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 04F74482DF0B5EECA85A5AD6 /* Pods-duodekaTests.release.xcconfig */;
+			baseConfigurationReference = D0E91FD4D3645645422E655C /* Pods-duodekaTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = duodekaTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -628,20 +909,18 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/duodeka.app/duodeka";
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-				);
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3603F563CBFEDF74CF1136FB /* Pods-duodeka.debug.xcconfig */;
+			baseConfigurationReference = 5CA1426FC4F4FB099DC3A21E /* Pods-duodeka.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_TEAM = JPTG2ZM8TX;
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = duodeka/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -652,19 +931,17 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = duodeka;
 				VERSIONING_SYSTEM = "apple-generic";
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-				);
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D8DCF091E0A146AE82FBA153 /* Pods-duodeka.release.xcconfig */;
+			baseConfigurationReference = CD1844F37E2D7DF1C6244320 /* Pods-duodeka.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JPTG2ZM8TX;
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = duodeka/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -675,15 +952,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = duodeka;
 				VERSIONING_SYSTEM = "apple-generic";
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-				);
 			};
 			name = Release;
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 643EAB86DD84F993490F3DE9 /* Pods-duodeka-tvOS.debug.xcconfig */;
+			baseConfigurationReference = AC630670D039670C10E096BA /* Pods-duodeka-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -694,6 +968,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "duodeka-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -706,15 +981,12 @@
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.2;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-				);
 			};
 			name = Debug;
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5C3B96FC33C84D5C8F08E0D8 /* Pods-duodeka-tvOS.release.xcconfig */;
+			baseConfigurationReference = 6226216405E23CC8F63B0CD4 /* Pods-duodeka-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -725,6 +997,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "duodeka-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -737,15 +1010,12 @@
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.2;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-				);
 			};
 			name = Release;
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D014937D80567D3722AC7F84 /* Pods-duodeka-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = CA1D26B20E47FEF4359F45D9 /* Pods-duodeka-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -755,6 +1025,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "duodeka-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -767,15 +1038,12 @@
 				SDKROOT = appletvos;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/duodeka-tvOS.app/duodeka-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-				);
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 31EF3D3633A6BE44B1497341 /* Pods-duodeka-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = BA46CD921110194369F40A01 /* Pods-duodeka-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -785,6 +1053,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "duodeka-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -797,9 +1066,6 @@
 				SDKROOT = appletvos;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/duodeka-tvOS.app/duodeka-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-				);
 			};
 			name = Release;
 		};

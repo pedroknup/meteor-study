@@ -7,7 +7,9 @@
  */
 
 import React, {Fragment} from 'react';
-import {WebView} from 'react-native-webview';
+import DeviceInfo from "react-native-device-info";
+import { BridgedWebView, WebViewBridge } from "./bridged-webview";
+
 import {
   SafeAreaView,
   StyleSheet,
@@ -30,7 +32,7 @@ const App = () => {
   return (
     <Fragment>
       <View style={styles.container}>
-        <WebView
+        <BridgedWebView
           source={{uri: 'http://192.168.1.104:3000'}}
           useWebKit={true}
           scrollEnabled
